@@ -1,6 +1,6 @@
 # CAPTCHA Generation in Python
-
-This guide demonstrates how to generate a CAPTCHA image using Python's `captcha` library. CAPTCHA images are used to prevent bots from submitting forms or performing automated actions. We will create a simple script that generates a random string and renders it as an image.
+How to generate a CAPTCHA image using Python's `captcha` library. 
+CAPTCHA images prevent bots from submitting forms or performing automated actions. We will create a simple script that generates a random string and renders it as an image.
 
 ## Prerequisites
 
@@ -100,7 +100,6 @@ print(f"Captcha Text: {captcha_text}")
 ```
 
 ---
-
 ## Output
 
 When you run the script, a CAPTCHA image (`captcha_image.png`) will be generated and saved in the working directory. The randomly generated text will be printed in the console, which can be used for validation.
